@@ -1,0 +1,26 @@
+nav{float:left;
+width:200px;
+padding-right:15px;
+white-space:nowrap;
+}
+nav li{list-style:none;}
+
+main{
+margin-left:200px;
+width:800px;
+position:relative;
+left:50px;
+}
+
+
+@media (max-width: 768px) {
+  nav{
+    float:none;
+	width:auto;
+  }
+  main{
+	  width:auto;
+	position:static;
+	margin-left:auto;
+  }
+}
